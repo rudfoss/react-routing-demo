@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "itex-2022": "apps/itex-2022",
+    "itex-2022-e2e": "apps/itex-2022-e2e"
+  }
+}
