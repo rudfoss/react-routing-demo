@@ -2,7 +2,7 @@ import React from "react"
 
 import { DevModeProvider } from "@app/contexts/devMode"
 import { ReactQueryProvider } from "@app/contexts/reactQuery"
-import { Routes } from "@app/routes/Routes"
+import { Routes } from "@app/routes"
 
 import { ErrorBoundary } from "./features/ErrorBoundary"
 

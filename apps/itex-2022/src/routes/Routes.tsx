@@ -1,13 +1,6 @@
+import { Typography } from "@mui/material"
 import React from "react"
 
-import { RootLayout } from "@app/layouts"
-
-import { HomePage } from "./HomePage"
-
-const RoutesComponent = () => (
-	<RootLayout>
-		<HomePage />
-	</RootLayout>
-)
+const RoutesComponent = () => <Typography variant="h1">Hello world</Typography>
 
 export const Routes = React.memo(RoutesComponent) as unknown as typeof RoutesComponent
