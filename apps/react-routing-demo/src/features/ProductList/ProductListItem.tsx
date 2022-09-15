@@ -1,4 +1,4 @@
-import { Button, Card, CardActions, CardContent, CardMedia, Link, Typography } from "@mui/material"
+import { Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material"
 import React from "react"
 import { Link as RouterLink } from "react-router-dom"
 
@@ -24,7 +24,7 @@ const ProductListItemComponent = ({ product }: ProductListItemProps) => {
 				</Typography>
 			</CardContent>
 			<CardActions sx={{ marginTop: "auto" }}>
-				<Link href={`product/${product.id}`}>More information</Link>
+				<RouterLink to={`product/${product.id}`}>More information</RouterLink>
 			</CardActions>
 		</Card>
 	)
