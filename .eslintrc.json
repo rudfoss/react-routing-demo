@@ -9,7 +9,7 @@
 			{
 				"groups": ["builtin", "external", ["internal", "sibling", "parent", "index"]],
 				"pathGroups": [
-					{ "pattern": "@itex-2022/**", "group": "internal", "position": "before" },
+					{ "pattern": "@react-routing-demo/**", "group": "internal", "position": "before" },
 					{ "pattern": "@app/**", "group": "internal", "position": "before" }
 				],
 				"pathGroupsExcludedImportTypes": ["internal"],

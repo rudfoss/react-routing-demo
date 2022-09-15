@@ -24,6 +24,8 @@ const List = styled.ul`
 const ProductListComponent = () => {
 	const { data: products } = useProductsData()
 
+	return "sdkljfdsl"
+
 	return (
 		<List>
 			{products?.map((product) => (
@@ -35,4 +37,4 @@ const ProductListComponent = () => {
 	)
 }
 
-export const ProductList = React.memo(ProductListComponent) as unknown as typeof ProductListComponent
+export const ProductList = React.memo(ProductListComponent as unknown) as typeof ProductListComponent

@@ -1,4 +1,5 @@
 import React from "react"
+import { BrowserRouter } from "react-router-dom"
 
 import { DevModeProvider } from "@app/contexts/devMode"
 import { ReactQueryProvider } from "@app/contexts/reactQuery"
@@ -11,7 +12,9 @@ const AppComponent = () => {
 		<DevModeProvider>
 			<ErrorBoundary>
 				<ReactQueryProvider>
-					<Routes />
+					<BrowserRouter>
+						<Routes />
+					</BrowserRouter>
 				</ReactQueryProvider>
 			</ErrorBoundary>
 		</DevModeProvider>

@@ -15,7 +15,7 @@
 		"skipDefaultLibCheck": true,
 		"baseUrl": ".",
 		"paths": {
-			"@app/*": ["apps/itex-2022/src/*"]
+			"@app/*": ["apps/react-routing-demo/src/*"]
 		}
 	},
 	"exclude": ["node_modules", "tmp"]
