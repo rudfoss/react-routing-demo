@@ -12,7 +12,7 @@
 			"const ${1:name}Component = (props: ${1:name}Props) => {",
 			"}",
 			"",
-			"export const ${1:name} = (React.memo(${1:name}Component) as unknown) as typeof ${1:name}Component"
+			"export const ${1:name} = React.memo(${1:name}Component)"
 		],
 		"scope": "typescriptreact"
 	},

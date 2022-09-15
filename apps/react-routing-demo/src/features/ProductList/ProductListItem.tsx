@@ -30,4 +30,4 @@ const ProductListItemComponent = ({ product }: ProductListItemProps) => {
 	)
 }
 
-export const ProductListItem = React.memo(ProductListItemComponent) as unknown as typeof ProductListItemComponent
+export const ProductListItem = React.memo(ProductListItemComponent)

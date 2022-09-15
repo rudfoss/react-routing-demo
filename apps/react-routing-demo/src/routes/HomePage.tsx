@@ -6,4 +6,4 @@ const HomePageComponent = () => {
 	return <ProductList />
 }
 
-export const HomePage = React.memo(HomePageComponent) as unknown as typeof HomePageComponent
+export const HomePage = React.memo(HomePageComponent)

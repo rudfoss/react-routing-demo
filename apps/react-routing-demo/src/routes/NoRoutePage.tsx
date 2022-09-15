@@ -10,4 +10,4 @@ const NoRoutePageComponent = () => (
 	</RootLayout>
 )
 
-export const NoRoutePage = React.memo(NoRoutePageComponent) as unknown as typeof NoRoutePageComponent
+export const NoRoutePage = React.memo(NoRoutePageComponent)

@@ -35,4 +35,4 @@ const ProductDetailsComponent = ({ id }: ProductDetailsProps) => {
 	)
 }
 
-export const ProductDetails = React.memo(ProductDetailsComponent) as unknown as typeof ProductDetailsComponent
+export const ProductDetails = React.memo(ProductDetailsComponent)

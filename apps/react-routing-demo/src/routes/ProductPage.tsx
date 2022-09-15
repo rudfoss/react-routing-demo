@@ -13,4 +13,4 @@ const ProductPageComponent = () => {
 	return <ProductDetails id={idInt} />
 }
 
-export const ProductPage = React.memo(ProductPageComponent) as unknown as typeof ProductPageComponent
+export const ProductPage = React.memo(ProductPageComponent)

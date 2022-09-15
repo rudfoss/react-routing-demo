@@ -17,4 +17,4 @@ const MainMenuComponent = () => {
 	)
 }
 
-export const MainMenu = React.memo(MainMenuComponent) as unknown as typeof MainMenuComponent
+export const MainMenu = React.memo(MainMenuComponent)
